@@ -97,14 +97,24 @@ function processInput() {
     if (userInput.trim()) {
         // Display the user's input
         chatHistory.innerHTML += `<p><strong>You:</strong> ${userInput}</p>`;
+        document.getElementById("user-input").value = ""; // Clear the input field
 
-        // Generate a response from ELIZA
-        const response = respond(userInput);
-        chatHistory.innerHTML += `<p><strong>ELIZA:</strong> ${response}</p>`;
+        // Add typing indicator
+        chatHistory.innerHTML += `<p id="typing-indicator"><em>ELIZA is typing...</em></p>`;
+        chatHistory.scrollTop = chatHistory.scrollHeight; 
 
-        // Clear the input field
-        document.getElementById("user-input").value = "";
+        // add delay for ELIZA's response
+        setTimeout(() => {
+            // Remove typing indicator
+            document.getElementById("typing-indicator").remove();
 
-        chatHistory.scrollTop = chatHistory.scrollHeight;
+           //Display ELIZA's response
+            const response = respond(userInput);
+            chatHistory.innerHTML += `<p><strong>ELIZA:</strong> ${response}</p>`;
+
+            
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        }, 1000); // 1-second delay for typing effect
     }
 }
+
