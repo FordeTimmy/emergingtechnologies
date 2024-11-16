@@ -16,7 +16,7 @@ Clone the Repository:
 git clone https://github.com/FordeTimmy/emergingtechnologies/blob/main/trigrams.ipynb
 
 Navigate to the project directory:
-cd trigram-text-generator
+cd trigrams.ipynb
 
 Install Dependencies:
 pip install -r requirements.txt
