@@ -53,3 +53,11 @@ OpenAI ChatGPT – Help with generating project ideas and examples.
 What is the Difference Between Bigram and Unigram Text Features Extraction - Stack Overflow – Explanation of unigram, bigram, and text feature extraction.
 TF-IDF for Bigrams and Trigrams - GeeksforGeeks – Insight into working with bigrams and trigrams.
 Python Textbook: Bigrams - Python for the Humanities – Explanation and examples of bigrams in Python.
+Python File Open - W3Schools – Working with file operations in Python.
+Iterate Over Files in Directory - GeeksforGeeks – Directory traversal in Python.
+Python Regular Expressions - Python Documentation – Regular expressions reference.
+Keep Only Alphanumeric and Space - Stack Overflow – Text cleaning techniques.
+NLTK Trigrams Examples - Program Creek – Examples of trigram implementation.
+Text File Splitting - Stack Overflow – Text processing techniques.
+Word Frequency in Percentage - GeeksforGeeks – Calculating word frequencies.
+Keras Model Serialization - TensorFlow – Model saving and serialization.

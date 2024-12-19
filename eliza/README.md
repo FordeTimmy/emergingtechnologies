@@ -98,6 +98,13 @@ The History of ELIZA - Mental Floss – An overview of the history and significa
 MDN Web Docs – Reference for JavaScript, HTML, and CSS.
 OpenAI ChatGPT – Inspiration for conversational modeling.
 
-https://developer.mozilla.org/en-US/docs/Learn/CSS
-https://www.mentalfloss.com/posts/eliza-chatbot-history
-https://web.njit.edu/~ronkowit/eliza.html
+## References
+
+- ELIZA - NJIT – Original ELIZA chatbot design overview
+- The History of ELIZA - Mental Floss – Historical background
+- MDN Web Docs – JavaScript/HTML/CSS documentation
+- CSS Reference - Mozilla Developer Network
+- ELIZA Chatbot History - Mental Floss
+- NJIT ELIZA Documentation
+- Atlantic TU VLE Notes
+- OpenAI ChatGPT – Conversational modeling assistance
